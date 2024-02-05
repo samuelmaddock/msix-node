@@ -1,0 +1,37 @@
+{
+  "name": "msix-node",
+  "version": "0.0.1",
+  "description": "Evaluate node scripts with a packaged identity on Windows.",
+  "main": "index.js",
+  "bin": {
+    "msix-node": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samuelmaddock/msix-node.git"
+  },
+  "keywords": [
+    "msix",
+    "appx",
+    "win32",
+    "winrt"
+  ],
+  "author": "Samuel Maddock",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "bugs": {
+    "url": "https://github.com/samuelmaddock/msix-node/issues"
+  },
+  "homepage": "https://github.com/samuelmaddock/msix-node#readme",
+  "prettier": {
+    "singleQuote": true
+  }
+}

@@ -1,0 +1,4 @@
+microsoft.system.package.metadata
+node_modules
+build-tmp-msix
+*.log
