@@ -126,7 +126,6 @@ async function registerAppx() {
 async function runExe() {
   console.log('Running packaged node…\n');
   const [, ...args] = process.argv;
-  console.log('***args', args);
   const p = cp.spawn(exeName, args);
   await new Promise((resolve, reject) => {
     p.stdout.pipe(process.stdout);
