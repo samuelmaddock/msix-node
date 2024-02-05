@@ -115,8 +115,9 @@ async function registerAppx() {
   console.log('Registering Appx package…');
 
   // If this fails, try incrementing the version in the manifest.
+  const manifest = path.join(__dirname, 'AppxManifest.xml');
   await exec(
-    'Add-AppxPackage –Register AppxManifest.xml -ForceUpdateFromAnyVersion',
+    `Add-AppxPackage –Register "${manifest}" -ForceUpdateFromAnyVersion`,
     {
       shell: 'powershell.exe',
     }
