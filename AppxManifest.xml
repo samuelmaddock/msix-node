@@ -18,6 +18,7 @@
   </Dependencies>
   <Capabilities>
     <rescap:Capability Name="runFullTrust"/>
+    <rescap:Capability Name="packageManagement"/>
   </Capabilities>
   <Applications>
     <Application Id="MsixNode" Executable="build-tmp-msix/msixnode.exe" EntryPoint="Windows.FullTrustApplication" uap10:RuntimeBehavior="packagedClassicApp" uap10:TrustLevel="mediumIL">
