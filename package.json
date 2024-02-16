@@ -1,6 +1,6 @@
 {
   "name": "msix-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Evaluate node scripts with a packaged identity on Windows.",
   "main": "index.js",
   "bin": {
